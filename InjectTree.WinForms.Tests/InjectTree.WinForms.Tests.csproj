@@ -6,12 +6,12 @@
 		<LangVersion>latest</LangVersion>
 		<Nullable>enable</Nullable>
 		<UseWindowsForms>true</UseWindowsForms>
-		<Version>0.1.0</Version>
+		<Version>0.2.0</Version>
 		<Copyright>© 2025 Pierre Lando</Copyright>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="InjectTree" Version="0.1.0" />
+		<PackageReference Include="InjectTree" Version="0.2.0" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.9" />
 		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.0" />
 		<PackageReference Include="NUnit" Version="4.4.0" />

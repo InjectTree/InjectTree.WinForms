@@ -1,4 +1,5 @@
 using Microsoft.Extensions.DependencyInjection;
+using System.Windows.Forms;
 
 namespace InjectTree.WinForms;
 
@@ -15,7 +16,7 @@ public static class ServiceCollectionInjectTreeWinFormsExtensions
     public static IServiceCollection AddInjectTreeWinForms(this IServiceCollection services)
     {
         return services
-            .AddSingleton<IBranchProvider, ControlBranchProvider>()
-            .AddSingleton<IBranchProvider, ToolStripBranchProvider>();
+            .AddBranchProvider<Control>(c => c.Controls)
+            .AddBranchProvider<ToolStrip>(s => s.Items);
     }
 }
