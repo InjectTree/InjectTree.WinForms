@@ -11,11 +11,9 @@
 		<Title>InjectTree.WinForms</Title>
 		<RepositoryUrl>https://github.com/InjectTree/InjectTree.WinForms</RepositoryUrl>
 		<UseWindowsForms>true</UseWindowsForms>
-		<Version>0.2.0</Version>
-		<Description>
-			Lightweight .NET library for recursive property injection.
-			Automatically populates object graphs like WinForms UI trees.
-		</Description>
+		<Version>0.3.0</Version>
+		<Description>Lightweight .NET library for recursive property injection.
+Automatically populates object graphs like WinForms UI trees.</Description>
 		<Copyright>© 2025 Pierre Lando</Copyright>
 		<PackageProjectUrl>https://github.com/InjectTree</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
@@ -30,7 +28,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="InjectTree" Version="0.2.0" />
+		<PackageReference Include="InjectTree" Version="0.3.0" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.9" />
 	</ItemGroup>
 </Project>

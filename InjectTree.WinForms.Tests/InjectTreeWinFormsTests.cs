@@ -39,7 +39,7 @@ public class InjectTreeWinFormsTests
         menuStrip.Items.Add(item2);
 
         // Act
-        var allControls = _treeTraversalStrategy.EnumerateNodes(_serviceProvider, menuStrip).OfType<object>().ToArray();
+        var allControls = _treeTraversalStrategy.EnumerateNodes(menuStrip, _serviceProvider).OfType<object>().ToArray();
 
         // Assert
         Assert.That(allControls, Contains.Item(item1));
@@ -62,7 +62,7 @@ public class InjectTreeWinFormsTests
         split.Panel2.Controls.Add(button2);
 
         // Act
-        var allControls = _treeTraversalStrategy.EnumerateNodes(_serviceProvider, split).OfType<object>().ToArray();
+        var allControls = _treeTraversalStrategy.EnumerateNodes(split, _serviceProvider).OfType<object>().ToArray();
 
         // Assert
         Assert.That(allControls, Contains.Item(button1));
@@ -90,7 +90,7 @@ public class InjectTreeWinFormsTests
         tabControl.TabPages.Add(page2);
 
         // Act
-        var allControls = _treeTraversalStrategy.EnumerateNodes(_serviceProvider, tabControl).OfType<object>().ToArray();
+        var allControls = _treeTraversalStrategy.EnumerateNodes(tabControl, _serviceProvider).OfType<object>().ToArray();
 
         // Assert
         Assert.That(allControls, Contains.Item(button1));
@@ -112,7 +112,7 @@ public class InjectTreeWinFormsTests
         toolStrip.Items.Add(item2);
 
         // Act
-        var allControls = _treeTraversalStrategy.EnumerateNodes(_serviceProvider, toolStrip).OfType<object>().ToArray();
+        var allControls = _treeTraversalStrategy.EnumerateNodes(toolStrip, _serviceProvider).OfType<object>().ToArray();
 
         // Assert
         Assert.That(allControls, Contains.Item(item1));
