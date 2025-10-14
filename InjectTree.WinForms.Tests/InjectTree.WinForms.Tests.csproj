@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Authors>Pierre Lando</Authors>
+		<Compagny>InjectTree</Compagny>
+		<TargetFrameworks>net8.0-windows;net48</TargetFrameworks>
+		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<Version>0.1.0</Version>
+		<Copyright>© 2025 Pierre Lando</Copyright>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="InjectTree" Version="0.1.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.9" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.0" />
+		<PackageReference Include="NUnit" Version="4.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\InjectTree.WinForms\InjectTree.WinForms.csproj" />
+	</ItemGroup>
+</Project>
