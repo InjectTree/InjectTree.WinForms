@@ -11,7 +11,7 @@
 		<Title>InjectTree.WinForms</Title>
 		<RepositoryUrl>https://github.com/InjectTree/InjectTree.WinForms</RepositoryUrl>
 		<UseWindowsForms>true</UseWindowsForms>
-		<Version>0.3.0</Version>
+		<Version>0.3.1</Version>
 		<Description>Lightweight .NET library for recursive property injection.
 Automatically populates object graphs like WinForms UI trees.</Description>
 		<Copyright>© 2025 Pierre Lando</Copyright>
