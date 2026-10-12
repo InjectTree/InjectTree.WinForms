@@ -2,7 +2,7 @@
 	<PropertyGroup>
 		<Authors>Pierre Lando</Authors>
 		<Compagny>InjectTree</Compagny>
-		<TargetFrameworks>net8.0-windows;net48</TargetFrameworks>
+		<TargetFrameworks>net10.0-windows;net48</TargetFrameworks>
 		<LangVersion>latest</LangVersion>
 		<Nullable>enable</Nullable>
 		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
@@ -11,7 +11,7 @@
 		<Title>InjectTree.WinForms</Title>
 		<RepositoryUrl>https://github.com/InjectTree/InjectTree.WinForms</RepositoryUrl>
 		<UseWindowsForms>true</UseWindowsForms>
-		<Version>0.3.1</Version>
+		<Version>0.3.3</Version>
 		<Description>Lightweight .NET library for recursive property injection.
 Automatically populates object graphs like WinForms UI trees.</Description>
 		<Copyright>© 2025 Pierre Lando</Copyright>
@@ -33,7 +33,7 @@ Automatically populates object graphs like WinForms UI trees.</Description>
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="InjectTree" Version="0.3.0" />
+		<PackageReference Include="InjectTree" Version="0.3.3" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.9" />
 	</ItemGroup>
 </Project>
